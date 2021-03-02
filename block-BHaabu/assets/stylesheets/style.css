@@ -1,0 +1,67 @@
+/*Cistom Styles*/
+
+/*Global*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: monospace;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*Main*/
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.background {
+  padding: 20px 0;
+  background: url(../media/mount1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.inbox {
+  width: 30%;
+  height: 400px;
+  border-radius: 8px;
+}
+
+.one {
+  background: #ed4845;
+}
+.two {
+  background: linear-gradient(to left, #ed4845, #282a22);
+}
+
+.three {
+  background: radial-gradient(#ed4845, #282a22);
+}
+
+.lowerbox {
+  width: 90%;
+  height: 600px;
+  margin: 40px auto;
+  border-radius: 8px;
+
+  background: linear-gradient(
+      135deg,
+      rgba(129, 134, 128, 0.6),
+      rgba(238, 41, 6, 0.6) 75%
+    ),
+    url("../media/andy-feliciotti-XO77KF1UEgU-unsplash.jpg") 50% 50% no-repeat;
+  background-size: 100% 100%;
+}
