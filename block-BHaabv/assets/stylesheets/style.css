@@ -2,9 +2,23 @@
 
 /*Global Styles*/
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #1d2029;
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
-  width: 70%;
+  width: 1400px;
   margin: 0 auto;
+  padding: 20px 0;
 }
 
 .flex {
@@ -14,24 +28,149 @@
   flex-wrap: wrap;
 }
 
+/*Icons*/
+
+.facebook {
+  color: #138ef8;
+}
+
+.twitter {
+  color: #138ef8;
+}
+
+.instagram {
+  background: linear-gradient(135deg, #f7d636, #ed4631, #7c4eac);
+}
+
+.youtube {
+  color: red;
+}
+
 /*Header*/
 
 .header {
   background-color: #20222f;
+  padding-bottom: 150px;
 }
 
 h1 {
-  font-size: 24px;
-  color: white;
+  font-size: 32px;
+  font-weight: bold;
 }
 
-/*Lower Section*/
+h4 {
+  font-size: 20px;
+  color: #756bb1;
+  padding-top: 8px;
+  font-weight: bold;
+}
+
+.button {
+  width: 64px;
+  height: 28px;
+  border-radius: 16px;
+  background: linear-gradient(to right, #3b77ad, #67d08f);
+  padding-left: 4px;
+  margin-left: 20px;
+}
+
+.circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #1d2029;
+}
+
+.button-container span {
+  color: #756bb1;
+}
+
+/*Main*/
+
+/*Upper Cards*/
+
+.upper-cards {
+  width: 22%;
+  height: 250px;
+  background-color: #252b43;
+  border-radius: 6px;
+  text-align: center;
+  overflow: hidden;
+  margin-top: -150px;
+}
+
+.border {
+  height: 6px;
+  background-color: #138ef8;
+}
+
+.borderinstagram {
+  height: 6px;
+  background: linear-gradient(to right, #f7d636, #ed4631, #7c4eac);
+}
+
+.borderyoutube {
+  height: 6px;
+  background-color: red;
+}
+a span {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.flex-2 {
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-2 a {
+  text-decoration: none;
+}
+
+.flex-2 a span {
+  margin-left: 15px;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.gap {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.changes,
+.changes span {
+  color: rgb(65, 95, 6);
+  font-size: 18px;
+}
+
+.changes-neg,
+.changes-neg span {
+  color: red;
+  font-size: 18px;
+}
+
+/*Lower Cards*/
+
+h3 {
+  font-size: 32px;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  font-weight: bold;
+}
 
 .stats {
-  margin: 15px auto;
+  margin: 15px 0;
   width: 22%;
   height: 150px;
   background-color: #252b43;
+  border-radius: 6px;
 }
 
 .instats {
@@ -45,6 +184,13 @@ h1 {
 .instat h3,
 .instat a {
   width: 40%;
+}
+
+.instats div {
+  color: rgb(65, 95, 6);
+}
+.instats .info {
+  color: #ffffff;
 }
 
 /*Icon Styling*/
